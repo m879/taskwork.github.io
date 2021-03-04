@@ -116,6 +116,8 @@ footer{
 }        
 .header-container{
     margin-top: 30vh;
+    margin-left: 20%;
+    width: 100%;   
 }
 .header-subheading p{
     color: #262f4d;
@@ -127,6 +129,15 @@ footer{
     font-size: 2rem;
     font-weight: 700;
     line-height: 125%;
+}
+.header-image-box{
+    margin-top:10vh;
+    background-color: #4970ff;
+    border-bottom-left-radius: 60%!important;
+    height: 88vh;
+}
+.header-image{
+    width: 80vh;margin-top: 10vh;margin-left: -25%;
 }
 .footer-list li{
     margin-top: 5vh;
@@ -167,6 +178,7 @@ footer{
     }
     .header-container{
         margin-top: 15vh;
+        margin-left: 0%;
     }
     .header-subheading p{
      text-align: center;
@@ -181,6 +193,17 @@ footer{
     }
     .header-btn{
         width: 100%;
+    }
+    .header-image-box{
+        margin-top:10vh;
+        background-color: #4970ff;
+        border-bottom-left-radius: 60%!important;
+        height: 50vh;
+        margin-left: 20%;
+    }
+    .header-image{
+        width: 100%;margin-top: 10vh;
+        margin-left: -25%;
     }
     .section3{
         padding-top:0vh;
@@ -215,10 +238,10 @@ footer{
 
 
 <div class="header">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-6 col-sm-12">
-                <div class="header-container">
+            <div class="col-lg-7 col-sm-12">
+                <div class="container header-container">
                     <div class="header-heading" >
                         <h1 class="heading">Automate business</h1>
                         <h1 class="heading" style="margin-top: -1vh;">processes with Us</h1>
@@ -233,9 +256,9 @@ footer{
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-12">
-                <div style="margin-top:10vh;">
-                   <img src="header.png" style="width: 100%;height: 100%;">
+            <div class="col-lg-5 col-sm-12" style="padding: 0px;">
+                <div class="header-image-box">
+                   <img class="header-image" src="https://static.ninoxdb.de/images/redesign-2020/homepage/screen@x2.png" >
                 </div>
             </div>
         </div>
